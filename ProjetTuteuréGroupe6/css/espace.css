@@ -1,0 +1,300 @@
+/* Welcome Banner */
+.welcome-banner {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.banner-content h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner-content p {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Choice Section (Cards) */
+.choice-section {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #f5f6fa;
+}
+
+.choice-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #2d3436;
+    font-weight: 700;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 2.5rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #eee;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card.admin .card-icon { color: #e67e22; }
+.card.teacher .card-icon { color: #27ae60; }
+.card.student .card-icon { color: #3498db; }
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #2d3436;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.card .features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.card .features li {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.card .features li i {
+    color: #28a745;
+    margin-right: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.card .btn-access {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.9rem 2.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+.card .btn-access:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+/* News Section */
+.news-section {
+    background-color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin-top: 3rem;
+}
+
+.news-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #2d3436;
+    font-weight: 700;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.news-icon {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.news-card h3 {
+    font-size: 1.6rem;
+    color: #2d3436;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.news-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news-card ul li {
+    background-color: #e9ecef;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 6px;
+    color: #444;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.news-card ul li i {
+    color: #007bff;
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f5f6fa;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #2d3436;
+    font-weight: 700;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.contact-item i {
+    font-size: 2.8rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.contact-item p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .header-left {
+        position: static;
+        margin-bottom: 1rem;
+    }
+
+    .welcome-banner {
+        padding: 3rem 1rem;
+    }
+
+    .banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+    }
+
+    .cards-container, .news-container, .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .news-card, .contact-item {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .form-container {
+        margin: 1rem auto;
+        padding: 1.5rem;
+    }
+
+    .login-button, .inscription-button {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+}
